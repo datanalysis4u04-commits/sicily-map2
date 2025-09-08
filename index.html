@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ce4ac2327802316265b231230e588db3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ce4ac2327802316265b231230e588db3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ce4ac2327802316265b231230e588db3 = L.map(
+                "map_ce4ac2327802316265b231230e588db3",
+                {
+                    center: [37.6, 14.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3a67e47e30b2118d754e0ada8afbdcd2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+            var marker_0195959bd92a1815b7c18b819c63a9b7 = L.marker(
+                [38.1157, 13.3615],
+                {}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+            var icon_0423862d961f68d615f747cbae746e64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0195959bd92a1815b7c18b819c63a9b7.setIcon(icon_0423862d961f68d615f747cbae746e64);
+        
+    
+        var popup_a3f14983a151a3eec680ea7b2b2e1231 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3c17a72ed5813849eaaeed3b8c89443 = $(`<div id="html_e3c17a72ed5813849eaaeed3b8c89443" style="width: 100.0%; height: 100.0%;"><b>باليرمو</b> → Palermo</div>`)[0];
+            popup_a3f14983a151a3eec680ea7b2b2e1231.setContent(html_e3c17a72ed5813849eaaeed3b8c89443);
+        
+
+        marker_0195959bd92a1815b7c18b819c63a9b7.bindPopup(popup_a3f14983a151a3eec680ea7b2b2e1231)
+        ;
+
+        
+    
+    
+            marker_0195959bd92a1815b7c18b819c63a9b7.bindTooltip(
+                `<div>
+                     باليرمو → Palermo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bcf7ac225affc6ef23c94794611be4be = L.marker(
+                [38.0185, 12.513],
+                {}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+            var icon_7b32d3a1b8de15cb316beb7eb88d85a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bcf7ac225affc6ef23c94794611be4be.setIcon(icon_7b32d3a1b8de15cb316beb7eb88d85a3);
+        
+    
+        var popup_0785d5cd32a1343fd9ade77737debfbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4136030f153dd23788b229eba6d9273 = $(`<div id="html_f4136030f153dd23788b229eba6d9273" style="width: 100.0%; height: 100.0%;"><b>طرابنش</b> → Trapani</div>`)[0];
+            popup_0785d5cd32a1343fd9ade77737debfbd.setContent(html_f4136030f153dd23788b229eba6d9273);
+        
+
+        marker_bcf7ac225affc6ef23c94794611be4be.bindPopup(popup_0785d5cd32a1343fd9ade77737debfbd)
+        ;
+
+        
+    
+    
+            marker_bcf7ac225affc6ef23c94794611be4be.bindTooltip(
+                `<div>
+                     طرابنش → Trapani
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92a828b03172cf789d1d750a468350ef = L.marker(
+                [37.6514, 12.591],
+                {}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+            var icon_813a6346bb163624fcce4eb99b5bc814 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_92a828b03172cf789d1d750a468350ef.setIcon(icon_813a6346bb163624fcce4eb99b5bc814);
+        
+    
+        var popup_85e430eed543c82595490338bf8753f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28369592d62f071fe498a9243ce6713d = $(`<div id="html_28369592d62f071fe498a9243ce6713d" style="width: 100.0%; height: 100.0%;"><b>مزارة</b> → Mazara del Vallo</div>`)[0];
+            popup_85e430eed543c82595490338bf8753f4.setContent(html_28369592d62f071fe498a9243ce6713d);
+        
+
+        marker_92a828b03172cf789d1d750a468350ef.bindPopup(popup_85e430eed543c82595490338bf8753f4)
+        ;
+
+        
+    
+    
+            marker_92a828b03172cf789d1d750a468350ef.bindTooltip(
+                `<div>
+                     مزارة → Mazara del Vallo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9770a5a2e20f490c1a425d587fc4d493 = L.marker(
+                [37.65, 13.1167],
+                {}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+            var icon_3333a224a47046d8002b7b017c978482 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9770a5a2e20f490c1a425d587fc4d493.setIcon(icon_3333a224a47046d8002b7b017c978482);
+        
+    
+        var popup_5b1410d2d11ab9628120b79859592d79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a13454ac711b3b25e0772fba49a8cbf = $(`<div id="html_9a13454ac711b3b25e0772fba49a8cbf" style="width: 100.0%; height: 100.0%;"><b>سومبوقة/المازرين</b> → Sambuca di Sicilia</div>`)[0];
+            popup_5b1410d2d11ab9628120b79859592d79.setContent(html_9a13454ac711b3b25e0772fba49a8cbf);
+        
+
+        marker_9770a5a2e20f490c1a425d587fc4d493.bindPopup(popup_5b1410d2d11ab9628120b79859592d79)
+        ;
+
+        
+    
+    
+            marker_9770a5a2e20f490c1a425d587fc4d493.bindTooltip(
+                `<div>
+                     سومبوقة/المازرين → Sambuca di Sicilia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6209f97dbe6f8e3cf9184f7c498aa446 = L.marker(
+                [37.3111, 13.5766],
+                {}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+            var icon_64d8e44f7d4acad97b69ce98aece623a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6209f97dbe6f8e3cf9184f7c498aa446.setIcon(icon_64d8e44f7d4acad97b69ce98aece623a);
+        
+    
+        var popup_0cda904afdc1109ba55f3e581d4e5856 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf90d2e5b96c686e390871752501a0b8 = $(`<div id="html_bf90d2e5b96c686e390871752501a0b8" style="width: 100.0%; height: 100.0%;"><b>جرجنت</b> → Agrigento</div>`)[0];
+            popup_0cda904afdc1109ba55f3e581d4e5856.setContent(html_bf90d2e5b96c686e390871752501a0b8);
+        
+
+        marker_6209f97dbe6f8e3cf9184f7c498aa446.bindPopup(popup_0cda904afdc1109ba55f3e581d4e5856)
+        ;
+
+        
+    
+    
+            marker_6209f97dbe6f8e3cf9184f7c498aa446.bindTooltip(
+                `<div>
+                     جرجنت → Agrigento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_377535f00d38fc13d7c86d7829ae1d6f = L.marker(
+                [37.5079, 15.083],
+                {}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+            var icon_9ef11ad31892efb9e1be8083cc89cafa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_377535f00d38fc13d7c86d7829ae1d6f.setIcon(icon_9ef11ad31892efb9e1be8083cc89cafa);
+        
+    
+        var popup_3c60561c46e7b02bf5a5d81658d231e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18b7eaaa1fe88de6d169f42bc00a14c6 = $(`<div id="html_18b7eaaa1fe88de6d169f42bc00a14c6" style="width: 100.0%; height: 100.0%;"><b>قطانية</b> → Catania</div>`)[0];
+            popup_3c60561c46e7b02bf5a5d81658d231e6.setContent(html_18b7eaaa1fe88de6d169f42bc00a14c6);
+        
+
+        marker_377535f00d38fc13d7c86d7829ae1d6f.bindPopup(popup_3c60561c46e7b02bf5a5d81658d231e6)
+        ;
+
+        
+    
+    
+            marker_377535f00d38fc13d7c86d7829ae1d6f.bindTooltip(
+                `<div>
+                     قطانية → Catania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_652e3227b7a018acc054a175ea661370 = L.marker(
+                [37.91, 12.857],
+                {}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+            var icon_211fab8ad66ef77682800b6f014a071a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_652e3227b7a018acc054a175ea661370.setIcon(icon_211fab8ad66ef77682800b6f014a071a);
+        
+    
+        var popup_10fba30fca8812780947947f2c7362cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a7660438ce7b90263aa2f0e7d83ad5a = $(`<div id="html_5a7660438ce7b90263aa2f0e7d83ad5a" style="width: 100.0%; height: 100.0%;"><b>قلعة فيمي</b> → Calatafimi-Segesta</div>`)[0];
+            popup_10fba30fca8812780947947f2c7362cc.setContent(html_5a7660438ce7b90263aa2f0e7d83ad5a);
+        
+
+        marker_652e3227b7a018acc054a175ea661370.bindPopup(popup_10fba30fca8812780947947f2c7362cc)
+        ;
+
+        
+    
+    
+            marker_652e3227b7a018acc054a175ea661370.bindTooltip(
+                `<div>
+                     قلعة فيمي → Calatafimi-Segesta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02dfbf755bf8e67e681c7d204136b838 = L.marker(
+                [37.9549, 13.2363],
+                {}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+            var icon_4443283b1e14e7703a01c99f9aa10f05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02dfbf755bf8e67e681c7d204136b838.setIcon(icon_4443283b1e14e7703a01c99f9aa10f05);
+        
+    
+        var popup_250c009967d11781ad2887f34534c6ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb8bbc1f17f0ec33d07d2276da922850 = $(`<div id="html_bb8bbc1f17f0ec33d07d2276da922850" style="width: 100.0%; height: 100.0%;"><b>جاطو/إياتو</b> → San Giuseppe Jato (Monte Jato)</div>`)[0];
+            popup_250c009967d11781ad2887f34534c6ca.setContent(html_bb8bbc1f17f0ec33d07d2276da922850);
+        
+
+        marker_02dfbf755bf8e67e681c7d204136b838.bindPopup(popup_250c009967d11781ad2887f34534c6ca)
+        ;
+
+        
+    
+    
+            marker_02dfbf755bf8e67e681c7d204136b838.bindTooltip(
+                `<div>
+                     جاطو/إياتو → San Giuseppe Jato (Monte Jato)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9680b3a800f400aa6db36d9324e88dc0 = L.marker(
+                [37.812, 13.302],
+                {}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+            var icon_2c5801863a2c01da3d53f26b44c5ca56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9680b3a800f400aa6db36d9324e88dc0.setIcon(icon_2c5801863a2c01da3d53f26b44c5ca56);
+        
+    
+        var popup_eca9bbcf2ac822951d515b23bd15017c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_546b33660617a5b8fefc5f60d7c03231 = $(`<div id="html_546b33660617a5b8fefc5f60d7c03231" style="width: 100.0%; height: 100.0%;"><b>قرلون</b> → Corleone</div>`)[0];
+            popup_eca9bbcf2ac822951d515b23bd15017c.setContent(html_546b33660617a5b8fefc5f60d7c03231);
+        
+
+        marker_9680b3a800f400aa6db36d9324e88dc0.bindPopup(popup_eca9bbcf2ac822951d515b23bd15017c)
+        ;
+
+        
+    
+    
+            marker_9680b3a800f400aa6db36d9324e88dc0.bindTooltip(
+                `<div>
+                     قرلون → Corleone
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48e3c0786e2faffb43767cc34d99be5f = L.marker(
+                [37.567, 14.902],
+                {}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+            var icon_c8deef7a8820fe0ba821c1bbefaa0989 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_48e3c0786e2faffb43767cc34d99be5f.setIcon(icon_c8deef7a8820fe0ba821c1bbefaa0989);
+        
+    
+        var popup_6a82e7b0ff4c1ccf5844af636f07b8aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0867be26495a4aea98bc81fd9f5b21b3 = $(`<div id="html_0867be26495a4aea98bc81fd9f5b21b3" style="width: 100.0%; height: 100.0%;"><b>بطلارو (تقريبية)</b> → Paternò (approx.)</div>`)[0];
+            popup_6a82e7b0ff4c1ccf5844af636f07b8aa.setContent(html_0867be26495a4aea98bc81fd9f5b21b3);
+        
+
+        marker_48e3c0786e2faffb43767cc34d99be5f.bindPopup(popup_6a82e7b0ff4c1ccf5844af636f07b8aa)
+        ;
+
+        
+    
+    
+            marker_48e3c0786e2faffb43767cc34d99be5f.bindTooltip(
+                `<div>
+                     بطلارو (تقريبية) → Paternò (approx.)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0475fb34ba6f438cedd698e3c34cebdc = L.circleMarker(
+                [37.75, 12.83],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_fdca404a95b358e69812330585baa1aa = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_e24d93983b4b5c0d6f0b8b95cc444bab = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2LfYsdizIChWYWwgZGkgTWF6YXJhIOKAkyDYqtmC2K/ZitixINiq2YLYsdmK2KjZiik8L2g0PjxkaXYgc3R5bGU9J21heC1oZWlnaHQ6MjQwcHg7b3ZlcmZsb3c6YXV0bztkaXJlY3Rpb246cnRsO3RleHQtYWxpZ246cmlnaHQ7Jz48dWw+PGxpPti52YrZhiDYqNmGINi52LfZitipPC9saT48bGk+2LnZitmGINin2YTYtdmB2LXYp9mBPC9saT48bGk+2LrYp9ixINio2YYg2YXYr9in2K88L2xpPjxsaT7YrtmG2K/ZgiDYp9mE2YXYsTwvbGk+PGxpPtix2KfYsyDYp9mE2YXYsTwvbGk+PGxpPtio2KfYrNipPC9saT48bGk+2LnZitmGINin2YTZgdiu2YjYrjwvbGk+PGxpPtio2KfYqCDYp9mE2LHZitit2KfZhtmK2Kk8L2xpPjxsaT7ZgdmI2KzYqSDYp9mE2LDZg9in2LHYqTwvbGk+PGxpPtit2KzYsSDYp9mE2LXYp9i52YLYqTwvbGk+PGxpPtix2KfYsyDYp9mE2KzYqNmEICjYrNio2YQg2KfZhNmI2KfZhNmKKTwvbGk+PGxpPtin2YTZhdit2KzYqSDYp9mE2YPYqNmK2LHYqTwvbGk+PGxpPtmI2KfYr9mKINi52YrZhiDYp9mE2K/ZhdmF2YbYqTwvbGk+PGxpPtmI2KfYr9mKINij2LTZg9mK2YTZiDwvbGk+PGxpPti52YrZhiDZgdix2YYg2KfZhNis2YrYsTwvbGk+PGxpPti62K/ZitixINio2YYg2KzZitiv2YjYszwvbGk+PGxpPtit2KzYsSDYp9mE2LrYsdin2Kg8L2xpPjxsaT7Yp9mE2LPZiNin2K48L2xpPjxsaT7Yt9ix2YrZgiDYo9iw2LHYp9mK2YbZiDwvbGk+PGxpPti62K/ZitixINin2YTYqNmE2YrZiDwvbGk+PGxpPtin2YTYrdis2KfYsSDYp9mE2YPYqNin2LE8L2xpPjxsaT7YudmK2YYg2KfZhNmE2YbYrNin2LXYqTwvbGk+PGxpPtmC2YTYudipINin2YTYt9ix2LLZijwvbGk+PGxpPtix2K3Yp9mEINix2KzZitixPC9saT48bGk+2LHYp9mK2Kk8L2xpPjxsaT7Yp9mE2LfZhtin2KjYsdmKPC9saT48bGk+2LHZhNmK2Kk8L2xpPjxsaT7Zgti12LfZhtipL9mC2LPYt9mG2Kk8L2xpPjxsaT7Ys9mI2YIg2KfZhNmF2LHYp9ipPC9saT48bGk+2KjZiNmD2YbYp9mG2Kk8L2xpPjxsaT7Zgtio2YrYp9mG2Kk8L2xpPjwvdWw+PC9kaXY+" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_fdca404a95b358e69812330585baa1aa.setContent(i_frame_e24d93983b4b5c0d6f0b8b95cc444bab);
+        
+
+        circle_marker_0475fb34ba6f438cedd698e3c34cebdc.bindPopup(popup_fdca404a95b358e69812330585baa1aa)
+        ;
+
+        
+    
+    
+            circle_marker_0475fb34ba6f438cedd698e3c34cebdc.bindTooltip(
+                `<div>
+                     طرس (Val di Mazara – تقدير تقريبي)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6a61c45bce27fa9187eeb2581d0971df = L.circleMarker(
+                [37.96, 13.22],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_b548409051879b428ae7d02da8563397 = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_ce95806d47fd6ad2a10f1b99d4272035 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2KzYp9i32YggLyDYpdmK2KfYqtmIICjZhdmG2LfZgtipIE1vbnRlIEphdG8pPC9oND48ZGl2IHN0eWxlPSdtYXgtaGVpZ2h0OjI0MHB4O292ZXJmbG93OmF1dG87ZGlyZWN0aW9uOnJ0bDt0ZXh0LWFsaWduOnJpZ2h0Oyc+PHVsPjxsaT7YqNi32KfZhNix2Yg8L2xpPjxsaT7Ys9in2LrZhtmIPC9saT48bGk+2K7Zhtiv2YIg2YPYsdin2YU8L2xpPjxsaT7ZhdmG2LLZhCDZh9mG2K/ZiNmGPC9saT48bGk+2KfZhNix2YbYr9ipPC9saT48bGk+2KfZhNiz2K/YsdipPC9saT48bGk+2KfZhNit2KzYsSDYp9mE2YPYqNmK2LE8L2xpPjxsaT7Ysdin2LMg2K3YtdipL9in2YTZgdiq2YrZhNipPC9saT48bGk+2KfZhNi02LHYrDwvbGk+PGxpPtin2YTYrdis2KfYsSDYp9mE2K3ZhdixPC9saT48bGk+2YHZiNin2LHYqSDYp9mE2LfYqNix2Yo8L2xpPjxsaT7Yp9mE2YLZhtiy2LHYqTwvbGk+PGxpPtmI2KfYr9mKINin2YTYrdis2KfZhTwvbGk+PGxpPtio2LHYrCDYp9mE2YHYp9ix2LPZijwvbGk+PGxpPtio2KfYqCDYp9mE2KjZitixPC9saT48bGk+2KfZhNio2KfYqNmK2Kk8L2xpPjxsaT7YqNix2Kwg2KfZhNit2KzYp9ixPC9saT48bGk+2KzZgdmE2Kk8L2xpPjxsaT7Zhdi62YbZiNis2Kk8L2xpPjxsaT7YtNmG2KrYutmG2Yo8L2xpPjxsaT7Zg9iv2YrYqSDYp9mE2YbYs9mI2LE8L2xpPjxsaT7Zg9iv2YrYqSDYp9mE2K3Zhtin2LQ8L2xpPjxsaT7Ysdin2LMg2KfZhNmI2KfYr9mKPC9saT48bGk+2K3YrNixINin2YTYstmG2KfYqtmKPC9saT48bGk+2YjYp9iv2Yog2KfYqNmGINiy2LHYqTwvbGk+PGxpPtiu2YbYr9mCINin2YTYutix2YrZgjwvbGk+PGxpPtix2K3ZhCDYqNit2LHZijwvbGk+PGxpPtin2YTZgtix2YrYp9mG2Yo8L2xpPjxsaT7ZiNin2K/ZiiDZgtmE2LnYqSDYp9mE2LfYsdiy2Yo8L2xpPjxsaT7Ysdit2YQg2KjZhNmK2Kw8L2xpPjxsaT7Ysdit2YQg2LXYp9mB2Yo8L2xpPjxsaT7Zhdin2LHYsjwvbGk+PGxpPtin2YTZhdit2KzYqSDYp9mE2K3Yp9mF2YTYqTwvbGk+PGxpPtin2YTZhdit2KzYqSDYp9mE2YbYp9iy2YTYqTwvbGk+PGxpPtin2YTZhdi32KfYrdmGPC9saT48bGk+2LHYrdmEINin2YTYrdmF2LE8L2xpPjxsaT7Yrdis2LEg2KzYp9ix2LU8L2xpPjxsaT7ZiNin2K/ZiiDYp9mE2KjYp9ix2K88L2xpPjxsaT7Ysdit2YQg2YjYsdiz2YrZhjwvbGk+PGxpPtmC2YTYudipINmB2YrZhdmKPC9saT48bGk+2YjYp9iv2Yog2KjYsdmC2YjZgjwvbGk+PGxpPti32LHYp9io2YbYtDwvbGk+PGxpPtin2YTYqNix2YXYp9mG2YrZhjwvbGk+PGxpPti12K7YsdipINir2YjYr9ixPC9saT48bGk+2YPYr9mK2Kkg2KfYqNmGINi12YTZiNmF2YjYpzwvbGk+PGxpPtiv2KfYsSDZitin2LPZitmGPC9saT48bGk+2LrYp9ixINin2YTYp9iz2YjYrzwvbGk+PGxpPtiu2YbYr9mCINin2YTYsdmI2YXZijwvbGk+PGxpPti52YrZiNmGINin2YTYsdmK2K3Yp9mGPC9saT48bGk+2KfZhNi52YbYtdmE2YrYqTwvbGk+PGxpPtiu2YbYr9mCINin2YTYqNmE2KfYtzwvbGk+PGxpPtmI2YTYrNipINin2YTYtNi52YrYsTwvbGk+PGxpPtmI2KfYr9mKINio2YjYrtio2YrYqzwvbGk+PGxpPtiu2YbYr9mCINin2YTZhNioPC9saT48bGk+2YHZiNin2LHYqSDYsdmC2YTYqTwvbGk+PGxpPtio2LHYt9mG2YrZgjwvbGk+PGxpPtmF2KfYsdiq2Yg8L2xpPjxsaT7Yudix2YEg2KfZhNi12YHYtdin2YE8L2xpPjxsaT7YrNio2YQg2KfZhNmF2KfYrNmG2Yo8L2xpPjxsaT7ZiNin2K/ZiiDYp9mE2YLYtdin2LE8L2xpPjxsaT7Ys9in2LrZhtmIPC9saT48bGk+2KzYqNmEINin2YTZhdi52LI8L2xpPjwvdWw+PC9kaXY+" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_b548409051879b428ae7d02da8563397.setContent(i_frame_ce95806d47fd6ad2a10f1b99d4272035);
+        
+
+        circle_marker_6a61c45bce27fa9187eeb2581d0971df.bindPopup(popup_b548409051879b428ae7d02da8563397)
+        ;
+
+        
+    
+    
+            circle_marker_6a61c45bce27fa9187eeb2581d0971df.bindTooltip(
+                `<div>
+                     جاطو / إياتو (منطقة Monte Jato)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7d432bad1e84592e48635154524d121b = L.circleMarker(
+                [37.62, 12.98],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_93c6f8d3e657fb2f5c6911110129df8b = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_126bbcfef906b3b1b2bc910aea014f9e = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2YXYutmG2YjYrNipICjYqtmC2K/ZitixINiq2YLYsdmK2KjZiiDZgdmKIFZhbCBkaSBNYXphcmEpPC9oND48ZGl2IHN0eWxlPSdtYXgtaGVpZ2h0OjI0MHB4O292ZXJmbG93OmF1dG87ZGlyZWN0aW9uOnJ0bDt0ZXh0LWFsaWduOnJpZ2h0Oyc+PHVsPjxsaT7YrtmG2K/ZgiDYp9io2YYg2KfZhNit2YjYp9izPC9saT48bGk+2LHYrNmEINin2YTZgtmE2KfZhNipPC9saT48bGk+2KjYp9iq2LHZiDwvbGk+PGxpPtin2YTZg9mG2YrYs9mK2Kkg2KfZhNi02LHZgtmKINmI2KfZhNi62LHYqNmKPC9saT48bGk+2KfZhNiv2YLZijwvbGk+PGxpPtmF2LXYqCDYp9mE2YXYp9ihINin2YTYutix2KjZijwvbGk+PGxpPti02YbYqti62YbZijwvbGk+PGxpPti52YrZhiDYp9mE2KjYp9ix2K/YqTwvbGk+PC91bD48L2Rpdj4=" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_93c6f8d3e657fb2f5c6911110129df8b.setContent(i_frame_126bbcfef906b3b1b2bc910aea014f9e);
+        
+
+        circle_marker_7d432bad1e84592e48635154524d121b.bindPopup(popup_93c6f8d3e657fb2f5c6911110129df8b)
+        ;
+
+        
+    
+    
+            circle_marker_7d432bad1e84592e48635154524d121b.bindTooltip(
+                `<div>
+                     مغنوجة (تقدير تقريبي في Val di Mazara)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b19b955deef04f1c8a03133c6bcd1677 = L.circleMarker(
+                [37.51, 13.08],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_604dd0f2a9c1ad12137351164e18ec73 = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_b72b8387c997265fa8ee87c79ef51fcb = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2KfZhNiv2YLZiiAo2KrZgtiv2YrYsSDYqtmC2LHZitio2YopPC9oND48ZGl2IHN0eWxlPSdtYXgtaGVpZ2h0OjI0MHB4O292ZXJmbG93OmF1dG87ZGlyZWN0aW9uOnJ0bDt0ZXh0LWFsaWduOnJpZ2h0Oyc+PHVsPjxsaT7YrtmG2K/ZgiDYqNin2YTYp9it2LPZhjwvbGk+PGxpPtin2YTYrNix2YrZgdipPC9saT48bGk+2KfZhNit2KzYsSDYp9mE2KvYp9io2KrYqTwvbGk+PGxpPtio2KfYqtix2Yg8L2xpPjxsaT7Yrdis2LEg2KfZhNi12YTZitioPC9saT48bGk+2LnZitmGINin2YTYudmFINin2YTZg9io2YrYsdipPC9saT48bGk+2LTZhtiq2LrZhtmKPC9saT48bGk+2LXZhNioINin2YTYtNin2LHZgTwvbGk+PGxpPtis2YHZhNipPC9saT48bGk+2LnZitmGINit2LPZhjwvbGk+PGxpPtin2YTYrtix2KjYqTwvbGk+PGxpPtit2KfYsdmDINin2KjZhiDYrdmF2LLYqTwvbGk+PGxpPtin2YTYqNmE2YjZitmGPC9saT48bGk+2KfZhNiu2YbYr9mCINin2YTZg9io2YrYsTwvbGk+PGxpPtin2YTZhdis2KfYsjwvbGk+PGxpPtin2YTZhdmG2KfZgti5PC9saT48L3VsPjwvZGl2Pg==" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_604dd0f2a9c1ad12137351164e18ec73.setContent(i_frame_b72b8387c997265fa8ee87c79ef51fcb);
+        
+
+        circle_marker_b19b955deef04f1c8a03133c6bcd1677.bindPopup(popup_604dd0f2a9c1ad12137351164e18ec73)
+        ;
+
+        
+    
+    
+            circle_marker_b19b955deef04f1c8a03133c6bcd1677.bindTooltip(
+                `<div>
+                     الدقي (تقدير تقريبي)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7d248050d7950b93490b9bd239523720 = L.circleMarker(
+                [37.55, 13.2],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_004c03f013c3715dd710e5ab80a30b81 = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_02c948958dcbba43fe2dfe9d7aac50b2 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2KfZhNio2YTZiNmK2YYgKNiq2YLYr9mK2LEg2KrZgtix2YrYqNmKKTwvaDQ+PGRpdiBzdHlsZT0nbWF4LWhlaWdodDoyNDBweDtvdmVyZmxvdzphdXRvO2RpcmVjdGlvbjpydGw7dGV4dC1hbGlnbjpyaWdodDsnPjx1bD48bGk+2KfZhNmC2YTYp9mE2Kk8L2xpPjxsaT7Yp9mE2K3YrNixINin2YTYqNmK2LbYpzwvbGk+PGxpPtin2YTZhdi62KfYutmKPC9saT48bGk+2K3YrNixINin2YTYs9ix2KfZgjwvbGk+PGxpPtit2KzYsSDYp9mE2LTYqNin2Lcg2KfZhNi02LHZgtmKPC9saT48bGk+2K3YrNixINin2YTYtNio2KfYtyDYp9mE2LrYsdio2Yo8L2xpPjxsaT7YqNmIINmB2LHZitix2Kk8L2xpPjxsaT7Yo9mG2K/YsdmK2KfZhtmK2Kk8L2xpPjxsaT7Yp9mE2YXYt9in2YXYsTwvbGk+PC91bD48L2Rpdj4=" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_004c03f013c3715dd710e5ab80a30b81.setContent(i_frame_02c948958dcbba43fe2dfe9d7aac50b2);
+        
+
+        circle_marker_7d248050d7950b93490b9bd239523720.bindPopup(popup_004c03f013c3715dd710e5ab80a30b81)
+        ;
+
+        
+    
+    
+            circle_marker_7d248050d7950b93490b9bd239523720.bindTooltip(
+                `<div>
+                     البلوين (تقدير تقريبي)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_465060c74e3c5530d9e048408d9a9df2 = L.circleMarker(
+                [37.59, 13.05],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_b5dee91a54b976730521f0746e3461d4 = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_5cfb80c87f7152a6d1b4788a6c3d8fd8 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2KjZiCDZgdix2YrYsdipICjYqtmC2K/ZitixINiq2YLYsdmK2KjZiik8L2g0PjxkaXYgc3R5bGU9J21heC1oZWlnaHQ6MjQwcHg7b3ZlcmZsb3c6YXV0bztkaXJlY3Rpb246cnRsO3RleHQtYWxpZ246cmlnaHQ7Jz48dWw+PGxpPtit2KzYp9ixINin2YTYtNio2KfYtzwvbGk+PGxpPtis2KfYt9mIPC9saT48bGk+2YXZhtiy2YQg2LXYp9mE2K08L2xpPjxsaT7ZiNin2K/ZiiDYqNmGINit2YXZiNivPC9saT48bGk+2KzZhtin2YYg2K3ZhdmI2K88L2xpPjxsaT7Ysdis2YQg2KfZhNmD2KfYqtioINmK2YjYs9mBPC9saT48bGk+2KfZhNij2LTZgtmBPC9saT48bGk+2K7Zhtiv2YIg2KfZhNit2LfYp9ioPC9saT48bGk+2KjYp9ioINio2YYg2YLZitizPC9saT48bGk+2LHYrdmEINi52YXYp9ixPC9saT48bGk+2LrYr9mK2LEg2KfZhNiz2LnYr9mKPC9saT48bGk+2YXYtdioINin2YTZhdin2KEg2KfZhNmC2KjZhNmKPC9saT48bGk+2LHYp9izINmI2YTYrNipINi52KjYryDYp9mE2YjYp9it2K88L2xpPjxsaT7YudmK2YYg2KjZhiDYp9mE2LLYqNmI2KzZijwvbGk+PGxpPtin2YTYrdin2LHZgyDYp9mE2YPYqNmK2LE8L2xpPjxsaT7YrtmG2K/ZgiDYp9mE2LrYsdmK2YI8L2xpPjxsaT7Yp9mE2K3YrNixINin2YTYqNmK2LbYpzwvbGk+PGxpPti32LHZitmCINin2YTYudiz2YPYsTwvbGk+PGxpPtit2KzYsSDYp9mE2LTYqNin2Lc8L2xpPjwvdWw+PC9kaXY+" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_b5dee91a54b976730521f0746e3461d4.setContent(i_frame_5cfb80c87f7152a6d1b4788a6c3d8fd8);
+        
+
+        circle_marker_465060c74e3c5530d9e048408d9a9df2.bindPopup(popup_b5dee91a54b976730521f0746e3461d4)
+        ;
+
+        
+    
+    
+            circle_marker_465060c74e3c5530d9e048408d9a9df2.bindTooltip(
+                `<div>
+                     بو فريرة (تقدير تقريبي)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3ed852506aa020456c32028fff742a64 = L.circleMarker(
+                [37.58, 13.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_bd5b09566e574aa48432c6faacdf1d56 = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_6b73e681309f563fa625f04b610b8093 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2LHYrdmEINin2YTZhdin2YrYqSAo2KzZhtin2YYg2KjZhiDZg9mG2KfZhtipKSDigJMg2KrZgtiv2YrYsSDYqtmC2LHZitio2Yo8L2g0PjxkaXYgc3R5bGU9J21heC1oZWlnaHQ6MjQwcHg7b3ZlcmZsb3c6YXV0bztkaXJlY3Rpb246cnRsO3RleHQtYWxpZ246cmlnaHQ7Jz48dWw+PGxpPtit2KzYsSDYp9mE2LTYqNin2Lc8L2xpPjxsaT7Yp9mE2K7Ysdio2Kk8L2xpPjxsaT7Yutiv2YrYsSDYp9mE2LPYudiv2Yo8L2xpPjxsaT7Yp9mE2LLZiNin2YrYp9iqPC9saT48bGk+2YPYr9mK2Kkg2KfZhNmG2LPZiNixPC9saT48bGk+2LHYp9izINmI2YTYrNipINi52KjYryDYp9mE2YjYp9it2K88L2xpPjxsaT7YudmK2YYg2KjZhiDYp9mE2LLYqNmI2KzZijwvbGk+PGxpPtiu2YbYr9mCINin2YTYutix2YrZgjwvbGk+PGxpPtit2KzYsSDYp9mE2KjZiti22Kc8L2xpPjxsaT7YrNin2LfZiDwvbGk+PGxpPtit2KzYsSDYp9mE2LTYqNin2Lc8L2xpPjwvdWw+PC9kaXY+" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_bd5b09566e574aa48432c6faacdf1d56.setContent(i_frame_6b73e681309f563fa625f04b610b8093);
+        
+
+        circle_marker_3ed852506aa020456c32028fff742a64.bindPopup(popup_bd5b09566e574aa48432c6faacdf1d56)
+        ;
+
+        
+    
+    
+            circle_marker_3ed852506aa020456c32028fff742a64.bindTooltip(
+                `<div>
+                     رحل الماية (جنان بن كنانة) – تقدير تقريبي
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_432426746a97fad06019aa33309fee8d = L.circleMarker(
+                [37.812, 13.302],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_ed8924bfafa9637f409ef8b92ebeea03 = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_79c7d7ab60dfb4387983164dc99deecf = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2YLYsdmE2YjZhiAoQ29ybGVvbmUpPC9oND48ZGl2IHN0eWxlPSdtYXgtaGVpZ2h0OjI0MHB4O292ZXJmbG93OmF1dG87ZGlyZWN0aW9uOnJ0bDt0ZXh0LWFsaWduOnJpZ2h0Oyc+PHVsPjxsaT7Yrdis2LEg2KfZhNiy2YbYp9iq2Yo8L2xpPjxsaT7Ysdit2YQg2KjYrdix2Yo8L2xpPjxsaT7Ysdit2YQg2KfZhNir2YjYsTwvbGk+PGxpPti52YrZiNmGINi52YrYp9i0PC9saT48bGk+2YHYrdi1INin2YTYr9ix2KfYr9ix2Kk8L2xpPjxsaT7YudmK2YYg2KfZhNi02K3ZhTwvbGk+PGxpPtio2KfYqCDYp9mE2LHZititPC9saT48bGk+2LHYrdmEINi52YTZiNmGPC9saT48bGk+2YXYttmK2YIg2KfZhNi12YLYp9mE2KjYqTwvbGk+PGxpPtmF2LPYrNivINin2YTYqNin2LHYrzwvbGk+PGxpPti32LHZitmCINiw2LHZitin2YbYqTwvbGk+PGxpPtix2KjYuSDYqNmIINi52KzZitmG2Kk8L2xpPjxsaT7Yutin2LEg2KjZiNis2LHYp9ivPC9saT48bGk+2YLZhNi52Kkg2KjZiCDYs9mF2LHYqTwvbGk+PC91bD48L2Rpdj4=" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_ed8924bfafa9637f409ef8b92ebeea03.setContent(i_frame_79c7d7ab60dfb4387983164dc99deecf);
+        
+
+        circle_marker_432426746a97fad06019aa33309fee8d.bindPopup(popup_ed8924bfafa9637f409ef8b92ebeea03)
+        ;
+
+        
+    
+    
+            circle_marker_432426746a97fad06019aa33309fee8d.bindTooltip(
+                `<div>
+                     قرلون (Corleone)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ae93589999976db169b34d822f4b2290 = L.circleMarker(
+                [37.65, 13.15],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_0b1a65ceb39644d956f68fcc02dbb395 = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_7d0705852e6abd4c07770842204ea592 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2K3YrNixINin2YTYstmG2KfYqtmKICjYqtmC2K/ZitixINiq2YLYsdmK2KjZiik8L2g0PjxkaXYgc3R5bGU9J21heC1oZWlnaHQ6MjQwcHg7b3ZlcmZsb3c6YXV0bztkaXJlY3Rpb246cnRsO3RleHQtYWxpZ246cmlnaHQ7Jz48dWw+PGxpPtmF2LfYrdmG2Kkg2KfZhNiz2YrYp9mE2Yo8L2xpPjxsaT7Ysdin2LMg2KfZhNiz2YjYp9iuPC9saT48bGk+2LnZitmGINin2YTZg9ix2KfZgdizPC9saT48bGk+2KfZhNit2KzYsSDYp9mE2LfZiNmK2YQ8L2xpPjxsaT7YrNio2YQg2KfZhNi62LLZhtiy2Yo8L2xpPjxsaT7Yutin2LEg2KfYqNmGINiy2YrYr9mI2YY8L2xpPjwvdWw+PC9kaXY+" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_0b1a65ceb39644d956f68fcc02dbb395.setContent(i_frame_7d0705852e6abd4c07770842204ea592);
+        
+
+        circle_marker_ae93589999976db169b34d822f4b2290.bindPopup(popup_0b1a65ceb39644d956f68fcc02dbb395)
+        ;
+
+        
+    
+    
+            circle_marker_ae93589999976db169b34d822f4b2290.bindTooltip(
+                `<div>
+                     حجر الزناتي (تقدير تقريبي)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d631d05d57d20f61870767afe6d8b097 = L.circleMarker(
+                [37.7, 12.95],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_cc1951d9fbbcdf8260283437d5ae8041 = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_d7c6c200b052587a65bcab9b66600fc9 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2YLZhNi52Kkg2KfZhNi32LHYstmKICjYqtmC2K/ZitixINiq2YLYsdmK2KjZiiDZgdmKIFZhbCBkaSBNYXphcmEpPC9oND48ZGl2IHN0eWxlPSdtYXgtaGVpZ2h0OjI0MHB4O292ZXJmbG93OmF1dG87ZGlyZWN0aW9uOnJ0bDt0ZXh0LWFsaWduOnJpZ2h0Oyc+PHVsPjxsaT7Yp9mE2YPZhtmK2LPZitipPC9saT48bGk+2KfZhNiu2YbYr9mCINin2YTYtdi62YrYsTwvbGk+PGxpPtio2LHYrCDYp9mE2YXYsdinPC9saT48bGk+2K7Zhtiv2YIg2KfZhNmC2LXYqDwvbGk+PGxpPtio2YrYsSDYqNmGINi52KrZitmCPC9saT48bGk+2KfZhNmC2LHZitin2YbZijwvbGk+PGxpPtmF2YbYstmEINi52KjYryDYp9mE2YTZhzwvbGk+PGxpPtin2YTZhdix2Kwg2KfZhNmD2KjZitixPC9saT48bGk+2LrYr9mK2LEg2LTYqtin2Ko8L2xpPjxsaT7Yutin2LEg2KfZhNi32YHZhDwvbGk+PGxpPtin2YTYs9mI2KfYrjwvbGk+PGxpPtit2YXYp9mFINij2YbYt9mE2Kk8L2xpPjxsaT7Ysdit2YQg2KfYqNmGINi52LHZgzwvbGk+PGxpPtix2KfYsyDYp9mE2KPZhtiv2LE8L2xpPjxsaT7ZhdmG2LLZhCDYtNmG2K/ZijwvbGk+PGxpPtix2KfYsyDYrtmG2K/ZgiDYp9mE2YLYtdioPC9saT48L3VsPjwvZGl2Pg==" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_cc1951d9fbbcdf8260283437d5ae8041.setContent(i_frame_d7c6c200b052587a65bcab9b66600fc9);
+        
+
+        circle_marker_d631d05d57d20f61870767afe6d8b097.bindPopup(popup_cc1951d9fbbcdf8260283437d5ae8041)
+        ;
+
+        
+    
+    
+            circle_marker_d631d05d57d20f61870767afe6d8b097.bindTooltip(
+                `<div>
+                     قلعة الطرزي (تقدير تقريبي في Val di Mazara)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f013a2128087dc98c054adeaec72eb9c = L.circleMarker(
+                [37.58, 12.88],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_ba46f76952c382653d739832cd0efe37 = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_76ddb4e1b08868bc8c258b1c1fc1dd37 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2KfZhNit2K/ZiNivINin2YTZg9io2LHZiSAvINmF2YjYp9i22Lkg2LnYp9mF2Kkg2YHZiiBWYWwgZGkgTWF6YXJhICjYqtmC2LHZitio2YrYqSk8L2g0PjxkaXYgc3R5bGU9J21heC1oZWlnaHQ6MjQwcHg7b3ZlcmZsb3c6YXV0bztkaXJlY3Rpb246cnRsO3RleHQtYWxpZ246cmlnaHQ7Jz48dWw+PGxpPtin2YTZhdi62KfYutmKPC9saT48bGk+2LPZiNmF2YbZijwvbGk+PGxpPtmF2YTYqNmK2Lc8L2xpPjxsaT7Zgtix2YjYqNmG2LQ8L2xpPjxsaT7Ysdit2YQg2KfZhNmD2YTYp9i52Yo8L2xpPjxsaT7Zgtix2YjYqNmG2LQg2KfZhNiz2YHZhNmKPC9saT48bGk+2LHYrdmEINin2YTZiNi32Kc8L2xpPjxsaT7Yp9mE2KfZhtiv2YTYs9mK2YY8L2xpPjxsaT7ZhdmG2LLZhCDYstix2YLZiNmGPC9saT48bGk+2KjZiCDZhtmB2KfYtzwvbGk+PGxpPtix2K3ZhCDYp9io2YYg2KjYsdmD2Kk8L2xpPjxsaT7Ysdit2YQg2YTZgtmF2YjZgtipPC9saT48bGk+2KfZhNix2K3ZhCDYp9mE2KzYr9mK2K88L2xpPjxsaT7Ysdit2YQg2LnZhdix2YjZhjwvbGk+PGxpPtix2K3ZhCDYp9mE2KjZiNmC2KfZhDwvbGk+PGxpPtix2K3ZhCDYp9mE2LrZhNmK2Lg8L2xpPjxsaT7Ysdit2YQg2YXYsdmI2KfYszwvbGk+PGxpPtmF2KfYsdiq2Yg8L2xpPjxsaT7Ysdit2YQg2KfZhNio2YTYp9i3PC9saT48bGk+2LHYrdmEINin2YTZhdivPC9saT48bGk+2LHYrdmEINin2YTYs9mD2KfZgzwvbGk+PGxpPtmF2YbYstmEINiy2YXZiNixPC9saT48bGk+2YXZhtiy2YQg2YPYsdi02KrZiiAo2LHYp9izINin2YTYrNio2YTYjCDZhdin2LLYsSk8L2xpPjxsaT7ZhdmG2LLZhCDYudio2K8g2KfZhNmE2Yc8L2xpPjxsaT7Yutin2LEg2LTYudmK2Kg8L2xpPjxsaT7Ysdit2YQg2KfYqNmGINiz2YfZhCAo2LTZhNmG2K/YqSk8L2xpPjxsaT7YrNix2YEg2KjZiCDZg9ix2YrZhSAo2K3YrNixINin2YTYqNmI2YLYp9mE2Iwg2K3YrNin2LEg2YLYt9in2YbZitip2Iwg2YjYp9iv2Yog2YXZhNio2YrYtyk8L2xpPjxsaT7Ysdit2YQg2KjYrNin2YbZiCAo2LnZitmGINin2YTYstio2KfYsdiMINmI2KfYr9mKINin2YTYrNmI2KjYp9ix2YrYqSk8L2xpPjxsaT7ZhdmG2LLZhCDYudio2K8g2KfZhNix2K3Zhdin2YYgKNiu2YbYr9mCINio2Ygg2LXYr9mB2KnYjCDYp9mE2YjYp9iv2Yog2KfZhNmD2KjZitix2Iwg2K3YrNin2LEg2KfZhNmG2YHYstmKKTwvbGk+PGxpPtin2YTZgtmF2YrYtyAo2KfZhNmI2KfYr9mKINin2YTZg9io2YrYsdiMINit2KzYp9ixINiv2YjYsSDYp9mE2KfZg9io2KfYtNiMINit2KzYsSDYp9io2YYg2YbYrNmB2YjYsSk8L2xpPjxsaT7YrNi32YrZhtipICjZhdi32KfYrdmGINin2YTZiNiy2KfZhtiMINi52YrZhiDYp9mE2K3Ytdin2Iwg2KzYqNmEINin2YTZhdix2LXZiNi1KTwvbGk+PGxpPtin2YTYutin2LE8L2xpPjxsaT7Yp9mE2LHZhtiv2KkgKNit2YHYsdipINin2KjZhiDYsdis2KcpPC9saT48bGk+2LHYrdmEINin2YTYrNmI2LI8L2xpPjxsaT7Yp9mE2KfZgtio2KfYtyAo2K7Zhtiv2YIg2KfZhNmK2YfZiNiv2Iwg2KzYqNmEINio2YjYp9mE2KzYsdin2K3YjCDYqNin2Kgg2KfZhNio2YrYp9iy2LHYqSk8L2xpPjwvdWw+PC9kaXY+" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_ba46f76952c382653d739832cd0efe37.setContent(i_frame_76ddb4e1b08868bc8c258b1c1fc1dd37);
+        
+
+        circle_marker_f013a2128087dc98c054adeaec72eb9c.bindPopup(popup_ba46f76952c382653d739832cd0efe37)
+        ;
+
+        
+    
+    
+            circle_marker_f013a2128087dc98c054adeaec72eb9c.bindTooltip(
+                `<div>
+                     الحدود الكبرى / مواضع عامة في Val di Mazara (تقريبية)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b342f7c9af9827e1b38e93ffdcb58693 = L.circleMarker(
+                [37.64, 13.05],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_eb063ff59a5494f9818ccd691ddca7af = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_09b6ac98d07ccca1d9bf7723940b66df = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2KzYp9mE2LXZiCAo2KrZgtix2YrYqNmK2KkpPC9oND48ZGl2IHN0eWxlPSdtYXgtaGVpZ2h0OjI0MHB4O292ZXJmbG93OmF1dG87ZGlyZWN0aW9uOnJ0bDt0ZXh0LWFsaWduOnJpZ2h0Oyc+PHVsPjxsaT7YrNmG2KfZhiDYp9mE2YPYp9iq2Kg8L2xpPjxsaT7YudmK2YYg2KfZhNmF2KfYstix2YrZhiAo2YbYs9io2Kkg2YTZhdiy2KfYsdipKTwvbGk+PGxpPtmF2YrYstin2Kgg2KfZhNiz2KfYqNmI2YLYqSAoU2FtYnVjYSBkaSBTaWNpbGlhKTwvbGk+PGxpPtis2KjZhCDYp9mE2LHYp9itPC9saT48L3VsPjwvZGl2Pg==" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_eb063ff59a5494f9818ccd691ddca7af.setContent(i_frame_09b6ac98d07ccca1d9bf7723940b66df);
+        
+
+        circle_marker_b342f7c9af9827e1b38e93ffdcb58693.bindPopup(popup_eb063ff59a5494f9818ccd691ddca7af)
+        ;
+
+        
+    
+    
+            circle_marker_b342f7c9af9827e1b38e93ffdcb58693.bindTooltip(
+                `<div>
+                     جالصو (تقريبية)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3b700e57905de2423c9af7b1c630b09e = L.circleMarker(
+                [37.69, 13.02],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_02a5019a0adac876abc496d7998f3bb6 = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_7cf14d48c4a505ca941328aea33ef9ef = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2YHYt9in2LPZhtipICjYqtmC2LHZitio2YrYqSk8L2g0PjxkaXYgc3R5bGU9J21heC1oZWlnaHQ6MjQwcHg7b3ZlcmZsb3c6YXV0bztkaXJlY3Rpb246cnRsO3RleHQtYWxpZ246cmlnaHQ7Jz48dWw+PGxpPti52YLYr9ipINin2YTYrtmG2LLZitixPC9saT48bGk+2YXZhtiy2YQg2LTZhtiv2Yo8L2xpPjwvdWw+PC9kaXY+" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_02a5019a0adac876abc496d7998f3bb6.setContent(i_frame_7cf14d48c4a505ca941328aea33ef9ef);
+        
+
+        circle_marker_3b700e57905de2423c9af7b1c630b09e.bindPopup(popup_02a5019a0adac876abc496d7998f3bb6)
+        ;
+
+        
+    
+    
+            circle_marker_3b700e57905de2423c9af7b1c630b09e.bindTooltip(
+                `<div>
+                     فطاسنة (تقريبية)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5b5beb234dfb7094ff4963b0fe089f4e = L.circleMarker(
+                [37.7, 13.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_1a6c64d2421ac44489c0e13ab93fc657 = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_bc3565b48bd6e42304450ba9eaca8daf = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2KXYs9io2LfYp9mEINi02YbYqti62YbZiiAo2KrZgtix2YrYqNmK2KkpPC9oND48ZGl2IHN0eWxlPSdtYXgtaGVpZ2h0OjI0MHB4O292ZXJmbG93OmF1dG87ZGlyZWN0aW9uOnJ0bDt0ZXh0LWFsaWduOnJpZ2h0Oyc+PHVsPjxsaT7Ypdiz2KjYt9in2YQv2LPYqNmK2LfYp9ixPC9saT48bGk+2YLYqNixINin2YTZgtiq2YrZhDwvbGk+PGxpPtit2KzYp9ixINmK2KfZgtmG2Yg8L2xpPjxsaT7Yo9i02KzYp9ixINin2YTYsNmD2KfYsTwvbGk+PGxpPtmF2LHZgtivINin2YTYstmK2KfYqjwvbGk+PC91bD48L2Rpdj4=" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_1a6c64d2421ac44489c0e13ab93fc657.setContent(i_frame_bc3565b48bd6e42304450ba9eaca8daf);
+        
+
+        circle_marker_5b5beb234dfb7094ff4963b0fe089f4e.bindPopup(popup_1a6c64d2421ac44489c0e13ab93fc657)
+        ;
+
+        
+    
+    
+            circle_marker_5b5beb234dfb7094ff4963b0fe089f4e.bindTooltip(
+                `<div>
+                     إسبطال شنتغني (تقريبية)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_64556879be332160a61ef5140843e172 = L.circleMarker(
+                [37.56, 14.9],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_75a095d0ee8ea58fe4fe8612b1d6ae79 = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_2fd55d7d0b7e90935add22321b975af3 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2KjYt9mE2KfYsdmIICjYtNix2YLZiiDYtdmC2YTZitipIOKAkyDYqtmC2K/ZitixINiq2YLYsdmK2KjZiik8L2g0PjxkaXYgc3R5bGU9J21heC1oZWlnaHQ6MjQwcHg7b3ZlcmZsb3c6YXV0bztkaXJlY3Rpb246cnRsO3RleHQtYWxpZ246cmlnaHQ7Jz48dWw+PGxpPtis2KjZhCDZgtin2YTYqNmIPC9saT48bGk+2KjZiCDYstin2YPZijwvbGk+PGxpPti52YrZhiDYp9mE2KjYt9in2YY8L2xpPjxsaT7YudmK2YYg2LnYqNin2LM8L2xpPjxsaT7Ysdit2YQg2KfZhNio2YjYsTwvbGk+PGxpPtin2YTYrtmG2K/ZgiDYp9mE2LXYutmK2LE8L2xpPjxsaT7Yp9mE2K3Zhdin2YU8L2xpPjxsaT7Yp9mE2KzYqNmEINin2YTYo9it2YXYsTwvbGk+PGxpPtit2KfYsdipINin2YTYutmB2YTYqTwvbGk+PGxpPtmI2KfYr9mKINi32YjYtzwvbGk+PGxpPtiu2YbYr9mCINin2YTYs9mE2KfYrTwvbGk+PGxpPtit2KzYp9ixINin2YTYsdin2KzZhDwvbGk+PGxpPtmI2KfYr9mKINmC2KjYsdi0PC9saT48bGk+2KjZitixINio2YjYrdis2LE8L2xpPjxsaT7YrtmG2K/ZgiDYp9mE2LrZhNin2YU8L2xpPjxsaT7YudmK2YYg2KfZhNi02YXYp9ixPC9saT48bGk+2KfZhNi52YTZitmCPC9saT48bGk+2KfZhNit2YTZiNmBPC9saT48bGk+2YLZhNi52Kkg2YXZiNix2Yg8L2xpPjxsaT7YudmK2YYg2KfZhNis2YTYp9mC2YY8L2xpPjxsaT7ZhdmI2LbYuSDYp9mE2YLYtdin2LHZiTwvbGk+PGxpPti52YrZhiDYp9mE2KrZgdin2K3YqTwvbGk+PGxpPtiu2YbYr9mCINin2YTYqtmK2YY8L2xpPjxsaT7ZgtmF2KzYqTwvbGk+PGxpPtis2YbZitin2YbYqTwvbGk+PC91bD48L2Rpdj4=" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_75a095d0ee8ea58fe4fe8612b1d6ae79.setContent(i_frame_2fd55d7d0b7e90935add22321b975af3);
+        
+
+        circle_marker_64556879be332160a61ef5140843e172.bindPopup(popup_75a095d0ee8ea58fe4fe8612b1d6ae79)
+        ;
+
+        
+    
+    
+            circle_marker_64556879be332160a61ef5140843e172.bindTooltip(
+                `<div>
+                     بطلارو (شرقي صقلية – تقدير تقريبي)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e2a096b7f514aefe0c81936c3054ee71 = L.circleMarker(
+                [37.72, 12.95],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+    
+        var popup_1da5aa970a0f4f28642006376e354ded = L.popup({"maxWidth": 360});
+
+        
+            var i_frame_20a68b0bc27c6b5d9141e389bbcf5ee6 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8aDQ+2KXYttin2YHYp9iqINi52KfZhdipICjZhdmG2KrYrtio2KkpIOKAkyDYqNiv2YjZhiDYqtir2KjZitiqINiv2YLZitmCPC9oND48ZGl2IHN0eWxlPSdtYXgtaGVpZ2h0OjI0MHB4O292ZXJmbG93OmF1dG87ZGlyZWN0aW9uOnJ0bDt0ZXh0LWFsaWduOnJpZ2h0Oyc+PHVsPjxsaT7Yutin2LEg2KfZhNi12LHZgdmKPC9saT48bGk+2KjYp9mE2K/Ysdis2Kk8L2xpPjxsaT7YqNis2LfZitmG2Kk8L2xpPjxsaT7ZhdmG2LLZhCDYudio2K8g2KfZhNix2K3Zhdin2YY8L2xpPjxsaT7Yp9mE2YLZhdmK2Lc8L2xpPjxsaT7ZhdmG2LLZhCDYudio2K8g2KfZhNmE2Yc8L2xpPjxsaT7ZhdmG2LLZhCDYstmF2YjYsTwvbGk+PGxpPtmF2YbYstmEINmD2LHYtNiqPC9saT48bGk+2LHYrdmEINi52KjYryDYp9mE2KPYudmE2Kc8L2xpPjxsaT7Ysdit2YQg2KfZhNi62YTZiti4PC9saT48bGk+2LHYrdmEINiv2LPZitiz2Kk8L2xpPjxsaT7ZhdmG2LLZhCDYstix2YLZiNmGPC9saT48bGk+2YTZgtmF2YjZgtipPC9saT48bGk+2KjYsdmC2YTYqTwvbGk+PGxpPtin2YTYrNix2YE8L2xpPjxsaT7Yp9mE2K7Ysdin2LPYp9mG2Yo8L2xpPjxsaT7YudmK2YYg2KfZhNiv2KfZhdmI2LM8L2xpPjxsaT7Ysdit2YQg2KfZhNmF2YbZitin2YjZijwvbGk+PGxpPtmC2KjZitin2YbYqTwvbGk+PGxpPtix2K3ZhCDYp9mE2KjZhNin2Lc8L2xpPjxsaT7Zgti12LfZhtipPC9saT48bGk+2KzZhdix2YrYqTwvbGk+PGxpPtin2KjZiiDZg9mG2KfZhtipPC9saT48bGk+2KfZhNi62KfZhdipPC9saT48bGk+2LHYp9mK2Kk8L2xpPjxsaT7Yp9mE2KPZhtiv2YTYs9mK2YY8L2xpPjxsaT7ZhdmG2LLZhCDZhtis2YrYt9ipPC9saT48bGk+2YXZhtiy2YQg2K3Ysdin2LI8L2xpPjxsaT7Ysdio2YbZiNi02Kk8L2xpPjxsaT7Ysdit2YQg2KjZiCDYp9mE2YTZgtmFPC9saT48bGk+2LHYrdmEINin2KjZhiDYutix2YM8L2xpPjxsaT7ZhdmE2KjZiti3PC9saT48bGk+2YXZhtiy2YQg2YfZhtiv2YjZhjwvbGk+PGxpPtmC2LHYqNmG2LQ8L2xpPjxsaT7Ysdit2YQg2LnZhdin2LE8L2xpPjxsaT7ZhNmK2KfYrDwvbGk+PGxpPti52YrZhiDYp9mE2YTZitin2YY8L2xpPjxsaT7Yp9mE2KjYrdix2YrZhjwvbGk+PGxpPtix2K3ZhCDYp9mE2LTYudix2KfZhtmKPC9saT48bGk+2YXZhtiy2YQg2KfZhNij2YXZitixPC9saT48bGk+2YjYp9iv2Yog2KfZhNiv2YHZhNipPC9saT48bGk+2K7Zhtiv2YIg2KfZhNio2YLYsdmKPC9saT48bGk+2KjYp9ioINin2YTYtNi52LHYp9mG2Yo8L2xpPjxsaT7Ysdin2LMg2KfZhNmG2KfYuNmI2LE8L2xpPjxsaT7YqNin2Kgg2KfZhNix2YrYrTwvbGk+PGxpPtmC2LfYp9mG2YrYqTwvbGk+PGxpPtin2YTYtNin2YLYqTwvbGk+PGxpPtmE2YrYp9isPC9saT48bGk+2KzYqNmEINis2KjYp9ix2Yo8L2xpPjxsaT7YrtmG2K/ZgiDYtdmG2Kog2KPYqNix2KfZhtmC2KfYtzwvbGk+PGxpPtis2YbYp9mGINit2YrYrdmKPC9saT48bGk+2KjZitmC2Yg8L2xpPjwvdWw+PC9kaXY+" width="360" style="border:none !important;" height="300"></iframe>`)[0];
+            popup_1da5aa970a0f4f28642006376e354ded.setContent(i_frame_20a68b0bc27c6b5d9141e389bbcf5ee6);
+        
+
+        circle_marker_e2a096b7f514aefe0c81936c3054ee71.bindPopup(popup_1da5aa970a0f4f28642006376e354ded)
+        ;
+
+        
+    
+    
+            circle_marker_e2a096b7f514aefe0c81936c3054ee71.bindTooltip(
+                `<div>
+                     إضافات عامة (منتخبة) – بدون تثبيت دقيق
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cluster_0f79c31987733c11453d2d6d4aeef5b3 = L.markerClusterGroup(
+                {}
+            );
+            map_ce4ac2327802316265b231230e588db3.addLayer(marker_cluster_0f79c31987733c11453d2d6d4aeef5b3);
+        
+    
+            var marker_2a447ac9db0e8da231b7b30c09a8da15 = L.marker(
+                [38.1157, 13.3615],
+                {}
+            ).addTo(marker_cluster_0f79c31987733c11453d2d6d4aeef5b3);
+        
+    
+        var popup_7af3cbd2069bdf1fd7ccf8824c88edeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ba0c5ddf8ec4298d8cebd21d5b02aee = $(`<div id="html_9ba0c5ddf8ec4298d8cebd21d5b02aee" style="width: 100.0%; height: 100.0%;"><b>باليرمو</b> → Palermo</div>`)[0];
+            popup_7af3cbd2069bdf1fd7ccf8824c88edeb.setContent(html_9ba0c5ddf8ec4298d8cebd21d5b02aee);
+        
+
+        marker_2a447ac9db0e8da231b7b30c09a8da15.bindPopup(popup_7af3cbd2069bdf1fd7ccf8824c88edeb)
+        ;
+
+        
+    
+    
+            marker_2a447ac9db0e8da231b7b30c09a8da15.bindTooltip(
+                `<div>
+                     باليرمو → Palermo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e0fab20061f2ea55029ebd8ae87f798 = L.marker(
+                [38.0185, 12.513],
+                {}
+            ).addTo(marker_cluster_0f79c31987733c11453d2d6d4aeef5b3);
+        
+    
+        var popup_29f4033f72704edef3584bf642323ae5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_812c216d3af9d5645c7adee2f4453f91 = $(`<div id="html_812c216d3af9d5645c7adee2f4453f91" style="width: 100.0%; height: 100.0%;"><b>طرابنش</b> → Trapani</div>`)[0];
+            popup_29f4033f72704edef3584bf642323ae5.setContent(html_812c216d3af9d5645c7adee2f4453f91);
+        
+
+        marker_1e0fab20061f2ea55029ebd8ae87f798.bindPopup(popup_29f4033f72704edef3584bf642323ae5)
+        ;
+
+        
+    
+    
+            marker_1e0fab20061f2ea55029ebd8ae87f798.bindTooltip(
+                `<div>
+                     طرابنش → Trapani
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d6143aee1d5a26a34e2db9dba36cff3 = L.marker(
+                [37.6514, 12.591],
+                {}
+            ).addTo(marker_cluster_0f79c31987733c11453d2d6d4aeef5b3);
+        
+    
+        var popup_052da9509ccba3b150ee69677d4fa572 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c4ddbf7c268a53ce31ca6d206d42ad5 = $(`<div id="html_7c4ddbf7c268a53ce31ca6d206d42ad5" style="width: 100.0%; height: 100.0%;"><b>مزارة</b> → Mazara del Vallo</div>`)[0];
+            popup_052da9509ccba3b150ee69677d4fa572.setContent(html_7c4ddbf7c268a53ce31ca6d206d42ad5);
+        
+
+        marker_3d6143aee1d5a26a34e2db9dba36cff3.bindPopup(popup_052da9509ccba3b150ee69677d4fa572)
+        ;
+
+        
+    
+    
+            marker_3d6143aee1d5a26a34e2db9dba36cff3.bindTooltip(
+                `<div>
+                     مزارة → Mazara del Vallo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e45cd5d46345572cef3178c9c8c6f54b = L.marker(
+                [37.65, 13.1167],
+                {}
+            ).addTo(marker_cluster_0f79c31987733c11453d2d6d4aeef5b3);
+        
+    
+        var popup_a3f45f5cd8f59db3e86e5b8acee37a8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4030eec5156cf34e5e6ab99834e1d734 = $(`<div id="html_4030eec5156cf34e5e6ab99834e1d734" style="width: 100.0%; height: 100.0%;"><b>سومبوقة/المازرين</b> → Sambuca di Sicilia</div>`)[0];
+            popup_a3f45f5cd8f59db3e86e5b8acee37a8e.setContent(html_4030eec5156cf34e5e6ab99834e1d734);
+        
+
+        marker_e45cd5d46345572cef3178c9c8c6f54b.bindPopup(popup_a3f45f5cd8f59db3e86e5b8acee37a8e)
+        ;
+
+        
+    
+    
+            marker_e45cd5d46345572cef3178c9c8c6f54b.bindTooltip(
+                `<div>
+                     سومبوقة/المازرين → Sambuca di Sicilia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83aaa2e23c0ddfa8c6ffa557414266d7 = L.marker(
+                [37.3111, 13.5766],
+                {}
+            ).addTo(marker_cluster_0f79c31987733c11453d2d6d4aeef5b3);
+        
+    
+        var popup_395dcf9cc14cda988770f8207dfaff15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ef9c859886e87801973a3bdc5b7d280 = $(`<div id="html_1ef9c859886e87801973a3bdc5b7d280" style="width: 100.0%; height: 100.0%;"><b>جرجنت</b> → Agrigento</div>`)[0];
+            popup_395dcf9cc14cda988770f8207dfaff15.setContent(html_1ef9c859886e87801973a3bdc5b7d280);
+        
+
+        marker_83aaa2e23c0ddfa8c6ffa557414266d7.bindPopup(popup_395dcf9cc14cda988770f8207dfaff15)
+        ;
+
+        
+    
+    
+            marker_83aaa2e23c0ddfa8c6ffa557414266d7.bindTooltip(
+                `<div>
+                     جرجنت → Agrigento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f78da09aa53a7caadc5d8efefeb1f54a = L.marker(
+                [37.5079, 15.083],
+                {}
+            ).addTo(marker_cluster_0f79c31987733c11453d2d6d4aeef5b3);
+        
+    
+        var popup_d1273c4cbea9e56bba628fd84daa6da4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02cfd573cdae0ce83a373f42976e7199 = $(`<div id="html_02cfd573cdae0ce83a373f42976e7199" style="width: 100.0%; height: 100.0%;"><b>قطانية</b> → Catania</div>`)[0];
+            popup_d1273c4cbea9e56bba628fd84daa6da4.setContent(html_02cfd573cdae0ce83a373f42976e7199);
+        
+
+        marker_f78da09aa53a7caadc5d8efefeb1f54a.bindPopup(popup_d1273c4cbea9e56bba628fd84daa6da4)
+        ;
+
+        
+    
+    
+            marker_f78da09aa53a7caadc5d8efefeb1f54a.bindTooltip(
+                `<div>
+                     قطانية → Catania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb242a1dd7f995c670edaeaf8346026f = L.marker(
+                [37.91, 12.857],
+                {}
+            ).addTo(marker_cluster_0f79c31987733c11453d2d6d4aeef5b3);
+        
+    
+        var popup_4b78b6589e5c6594c15a4ee15f2d874d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53c288b1c0f78d6ff16aa0f688f73429 = $(`<div id="html_53c288b1c0f78d6ff16aa0f688f73429" style="width: 100.0%; height: 100.0%;"><b>قلعة فيمي</b> → Calatafimi-Segesta</div>`)[0];
+            popup_4b78b6589e5c6594c15a4ee15f2d874d.setContent(html_53c288b1c0f78d6ff16aa0f688f73429);
+        
+
+        marker_fb242a1dd7f995c670edaeaf8346026f.bindPopup(popup_4b78b6589e5c6594c15a4ee15f2d874d)
+        ;
+
+        
+    
+    
+            marker_fb242a1dd7f995c670edaeaf8346026f.bindTooltip(
+                `<div>
+                     قلعة فيمي → Calatafimi-Segesta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37fb40813a7fa13dac6a4ab31c2dda1a = L.marker(
+                [37.9549, 13.2363],
+                {}
+            ).addTo(marker_cluster_0f79c31987733c11453d2d6d4aeef5b3);
+        
+    
+        var popup_5036f4277ca6ff744ad72bc02a8597d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26fd43dcb85202d7c54d08103e25ade6 = $(`<div id="html_26fd43dcb85202d7c54d08103e25ade6" style="width: 100.0%; height: 100.0%;"><b>جاطو/إياتو</b> → San Giuseppe Jato (Monte Jato)</div>`)[0];
+            popup_5036f4277ca6ff744ad72bc02a8597d1.setContent(html_26fd43dcb85202d7c54d08103e25ade6);
+        
+
+        marker_37fb40813a7fa13dac6a4ab31c2dda1a.bindPopup(popup_5036f4277ca6ff744ad72bc02a8597d1)
+        ;
+
+        
+    
+    
+            marker_37fb40813a7fa13dac6a4ab31c2dda1a.bindTooltip(
+                `<div>
+                     جاطو/إياتو → San Giuseppe Jato (Monte Jato)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0fd447481eeec98ce092a9804ad670a7 = L.marker(
+                [37.812, 13.302],
+                {}
+            ).addTo(marker_cluster_0f79c31987733c11453d2d6d4aeef5b3);
+        
+    
+        var popup_62bc215ca5700c8c4b3c1ba3bf486b21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_838df5ef01dfaffe72774c97f7ee0543 = $(`<div id="html_838df5ef01dfaffe72774c97f7ee0543" style="width: 100.0%; height: 100.0%;"><b>قرلون</b> → Corleone</div>`)[0];
+            popup_62bc215ca5700c8c4b3c1ba3bf486b21.setContent(html_838df5ef01dfaffe72774c97f7ee0543);
+        
+
+        marker_0fd447481eeec98ce092a9804ad670a7.bindPopup(popup_62bc215ca5700c8c4b3c1ba3bf486b21)
+        ;
+
+        
+    
+    
+            marker_0fd447481eeec98ce092a9804ad670a7.bindTooltip(
+                `<div>
+                     قرلون → Corleone
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96200c59ddab230cece88bac5c3122a4 = L.marker(
+                [37.567, 14.902],
+                {}
+            ).addTo(marker_cluster_0f79c31987733c11453d2d6d4aeef5b3);
+        
+    
+        var popup_3dce54354e6aafeebde979c655114628 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b486b966d6d7266af8b7ef75117bb7f = $(`<div id="html_2b486b966d6d7266af8b7ef75117bb7f" style="width: 100.0%; height: 100.0%;"><b>بطلارو (تقريبية)</b> → Paternò (approx.)</div>`)[0];
+            popup_3dce54354e6aafeebde979c655114628.setContent(html_2b486b966d6d7266af8b7ef75117bb7f);
+        
+
+        marker_96200c59ddab230cece88bac5c3122a4.bindPopup(popup_3dce54354e6aafeebde979c655114628)
+        ;
+
+        
+    
+    
+            marker_96200c59ddab230cece88bac5c3122a4.bindTooltip(
+                `<div>
+                     بطلارو (تقريبية) → Paternò (approx.)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_512e87eb59b31c9b2ed1030d4e3dce49 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_3a67e47e30b2118d754e0ada8afbdcd2,
+                },
+                overlays :  {
+                    "\u0645\u062f\u0646 \u0631\u0626\u064a\u0633\u064a\u0629" : marker_cluster_0f79c31987733c11453d2d6d4aeef5b3,
+                },
+            };
+            L.control.layers(
+                layer_control_512e87eb59b31c9b2ed1030d4e3dce49.base_layers,
+                layer_control_512e87eb59b31c9b2ed1030d4e3dce49.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_ce4ac2327802316265b231230e588db3);
+        
+</script>
+</html>
